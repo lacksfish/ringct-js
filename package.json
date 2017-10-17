@@ -1,0 +1,30 @@
+{
+  "name": "ringct-js",
+  "version": "0.0.1",
+  "description": "Ring Confidential Transaction library for signing and crafting Monero transactions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacksfish/ringct-js.git"
+  },
+  "keywords": [
+    "Monero",
+    "RingCT"
+  ],
+  "author": "lacksfish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lacksfish/ringct-js/issues"
+  },
+  "homepage": "https://github.com/lacksfish/ringct-js#readme",
+  "dependencies": {
+    "big-integer": "^1.6.25",
+    "bn.js": "^4.11.8",
+    "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.4.0",
+    "unorm": "^1.4.1"
+  }
+}
